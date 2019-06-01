@@ -1,0 +1,2 @@
+///viewmodel
+abstract class ViewModel {}

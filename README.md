@@ -33,13 +33,14 @@ class HomeViewModel extends ViewModel {
 
 LifecycleOwner默认提供了STARTED和DESTROYED两个生命周期
 
-你也可以通过LifecycleState来定义你自己的生命周期
 
 ```Dart
 class HomeCooling extends StatefulWidget with LifecycleOwner {
 
 }
 ```
+
+你也可以通过LifecycleState来定义你自己的生命周期
 ```Dart
 LifecycleState state = LifecycleState(state:"stop");
 ```

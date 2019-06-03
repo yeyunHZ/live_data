@@ -1,14 +1,7 @@
-# live_data
+简介
+===
 
-flutter live_data
+一个类似Android LiveData的框架，提供MVVM模式的数据和生命周期绑定。
+LiveData采用了观察者模式设计，其中LiveData是被观察者，当数据发生变化时会通知观察者进行数据更新，从而确保数据和界面的实时性。
+LiveData能够感知组件的生命周期，所以可以通过设置LiveData组件的生命周期状态，来触发数据更新，从而更新UI。
 
-## Getting Started
-
-This project is a starting point for a Dart
-[package](https://flutter.io/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.

@@ -77,3 +77,11 @@ void getValue() async {
   }
 ```
 
+
+安装
+===
+
+      dev_dependencies:
+         live_data：0.0.1
+          
+
